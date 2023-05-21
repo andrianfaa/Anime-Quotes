@@ -22,7 +22,7 @@ const NavigationBar = forwardRef<HTMLElement | null, unknown>((_, ref) => (
       <motion.a
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        href="https://github.com/andrianfaa"
+        href="https://github.com/andrianfaa/Anime-Quotes"
         title="Source Code available in Github"
         aria-label="Source Code available in Github"
         target="_blank"
