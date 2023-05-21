@@ -48,7 +48,8 @@ const useGetQuotes = (): UseGetQuotesReturnTypes => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/quotes/anime/random",
+        // TODO: change url if you have new API
+        "https://anime-quotes.api.anfa.my.id/api/quotes/anime/random",
         {
           method: "GET"
         }
